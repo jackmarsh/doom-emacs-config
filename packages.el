@@ -48,7 +48,7 @@
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;; (unpin! t)
 (package! emacsql-sqlite3
-  :recipe (:host github :repo "org-roam/emacsql-sqlite3"))
+  :recipe (:host github :repo "cireu/emacsql-sqlite3"))
 (package! org-roam-ui)
 
 (package! ws-butler :disable t)
